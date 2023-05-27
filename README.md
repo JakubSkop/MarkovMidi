@@ -11,6 +11,6 @@ From an API perspective:
 - The MarkovChain class is a collection of States. It can be inherited from to ovverride the intialization method, which determines how the states get linked together and with what probabilities.
 - The Percentage Probability struct is a simple representation of a fixed point percentage value. Ranges from 0 to 100 with integer values.
 - Random.hpp contains a  global variable for generating randomness.
-- MusicalFunctions is where you can find functions that generate the msuical callbacks for Markov States.
+- MusicalFunctions is where you can find functions that generate the musical callbacks for Markov States.
 
 Main.cpp contains an example usage of these features. Uploaded below is a video of this exmaple used to create a four chord loop randomised arpeggiator with Vital.
