@@ -1,0 +1,3 @@
+D:\BiggerApplications\CMake\bin\cmake.exe -E rm -f CMakeFiles\Markov_Midi.dir/objects.a
+C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\Markov_Midi.dir/objects.a @CMakeFiles\Markov_Midi.dir\objects1
+C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Markov_Midi.dir/objects.a -Wl,--no-whole-archive -o Markov_Midi.exe -Wl,--out-implib,libMarkov_Midi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Markov_Midi.dir\linkLibs.rsp
