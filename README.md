@@ -14,3 +14,6 @@ From an API perspective:
 - MusicalFunctions is where you can find functions that generate the musical callbacks for Markov States.
 
 Main.cpp contains an example usage of these features. Uploaded below is a video of this exmaple used to create a four chord loop randomised arpeggiator with Vital.
+
+https://github.com/JakubSkop/MarkovMidi/assets/130648387/5fc62f3c-a677-4fd6-9db1-d65ca8d107a0
+
