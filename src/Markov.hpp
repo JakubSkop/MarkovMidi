@@ -2,6 +2,7 @@
 
 #include <functional>
 #include <memory>
+#include <chrono>
 
 class MarkovState;
 
@@ -27,7 +28,6 @@ class MarkovState{
         std::vector<PercentageProbability> probabilities;
 
 };
-
 
 class MarkovChain{
     public:

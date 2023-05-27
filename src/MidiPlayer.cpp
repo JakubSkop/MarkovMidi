@@ -11,7 +11,7 @@ MidiPlayer::MidiPlayer(){
     midiOut = InitializeMidiOut();
     std::cout << "No. of Available Ports:" << midiOut->getPortCount() << "\n";
     midiOut->openPort(1,"C++Port");
-}
+};
 
 void MidiPlayer::PlayNote(Note note) const{
     std::vector<unsigned char> message;
@@ -25,9 +25,7 @@ void MidiPlayer::PlayNote(Note note) const{
     message[1] = note.pitch;
     message[2] = note.velocity/2; //Velocity with which current Note should be removed
     midiOut->sendMessage( &message );
-}
-
-
+};
 
 void MidiPlayer::SetupMidi(){
     // Send out a series of MIDI messages.
@@ -41,4 +39,4 @@ void MidiPlayer::SetupMidi(){
     message[1] = 7;
     message.push_back( 100 );
     midiOut->sendMessage( &message );
-}
+};
