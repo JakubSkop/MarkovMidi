@@ -47,6 +47,12 @@ class Markov1: public MarkovChain{
 
 };
 
+class Markov2: public MarkovChain{
+    public:
+        void Initialize(std::vector<statePtr> states) override;
+
+};
+
 class FourStateLoop: public MarkovChain{
     public:
         void Initialize(std::vector<statePtr> states) override;

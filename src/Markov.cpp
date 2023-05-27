@@ -97,6 +97,34 @@ void Markov1::Initialize(std::vector<statePtr> states){
     SetCurrentState(s1);
 };
 
+void Markov2::Initialize(std::vector<statePtr> states){
+    statePtr  s1 = states[0];
+    statePtr  s2 = states[1];
+    statePtr  s3 = states[2];
+    statePtr  s4 = states[3];
+    statePtr  s5 = states[4];
+
+    s1->AddNextState(s2,70);
+    s1->AddNextState(s3,0);
+    s1->AddNextState(s4,30);
+    s1->AddNextState(s1,0);
+
+    s2->AddNextState(s1,50);
+    s2->AddNextState(s5,50);
+
+    s3->AddNextState(s3,30);
+    s3->AddNextState(s1,30);
+    s3->AddNextState(s2,40);
+
+    s4->AddNextState(s5,90);
+    s4->AddNextState(s4,10);
+
+    s5->AddNextState(s3,70);
+    s5->AddNextState(s5,30);
+
+    SetCurrentState(s2);
+};
+
 void FourStateLoop::Initialize(std::vector<statePtr> states){
     statePtr  s1 = states[0];
     statePtr  s2 = states[1];
