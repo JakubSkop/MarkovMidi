@@ -80,12 +80,12 @@ clean: CMakeFiles/Markov_Midi.dir/clean
 CMakeFiles/Markov_Midi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Markov_Midi.dir\build.make CMakeFiles/Markov_Midi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Markov_Midi.dir\build.make CMakeFiles/Markov_Midi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target Markov_Midi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target Markov_Midi"
 .PHONY : CMakeFiles/Markov_Midi.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Markov_Midi.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Development\C++\MarkovMidi\build\CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Development\C++\MarkovMidi\build\CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/Markov_Midi.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start D:\Development\C++\MarkovMidi\build\CMakeFiles 0
 .PHONY : CMakeFiles/Markov_Midi.dir/rule

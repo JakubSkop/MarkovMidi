@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Development/C++/MarkovMidi/src/Initialization.cpp" "CMakeFiles/Markov_Midi.dir/src/Initialization.cpp.obj" "gcc" "CMakeFiles/Markov_Midi.dir/src/Initialization.cpp.obj.d"
   "D:/Development/C++/MarkovMidi/src/Markov.cpp" "CMakeFiles/Markov_Midi.dir/src/Markov.cpp.obj" "gcc" "CMakeFiles/Markov_Midi.dir/src/Markov.cpp.obj.d"
   "D:/Development/C++/MarkovMidi/src/MidiPlayer.cpp" "CMakeFiles/Markov_Midi.dir/src/MidiPlayer.cpp.obj" "gcc" "CMakeFiles/Markov_Midi.dir/src/MidiPlayer.cpp.obj.d"
+  "D:/Development/C++/MarkovMidi/src/MusicalFunctions.cpp" "CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj" "gcc" "CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj.d"
   "D:/Development/C++/MarkovMidi/src/Note.cpp" "CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj" "gcc" "CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj.d"
   "D:/Development/C++/MarkovMidi/src/RtMidi.cpp" "CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj" "gcc" "CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj.d"
   )

@@ -1,9 +1,9 @@
+#pragma once
+
 #include <iostream>
 #include <memory>
 #include "RtMidi.h"
 #include "Note.hpp"
-
-#pragma once
 
 class MidiPlayer{
     private:

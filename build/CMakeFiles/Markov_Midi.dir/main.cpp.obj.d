@@ -212,4 +212,5 @@ CMakeFiles/Markov_Midi.dir/main.cpp.obj: \
  C:/msys64/mingw64/include/c++/13.1.0/bits/hashtable.h \
  C:/msys64/mingw64/include/c++/13.1.0/bits/hashtable_policy.h \
  C:/msys64/mingw64/include/c++/13.1.0/bits/node_handle.h \
- C:/msys64/mingw64/include/c++/13.1.0/bits/erase_if.h
+ C:/msys64/mingw64/include/c++/13.1.0/bits/erase_if.h \
+ D:/Development/C++/MarkovMidi/src/MusicalFunctions.hpp

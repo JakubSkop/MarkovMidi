@@ -289,6 +289,30 @@ src/MidiPlayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Markov_Midi.dir\build.make CMakeFiles/Markov_Midi.dir/src/MidiPlayer.cpp.s
 .PHONY : src/MidiPlayer.cpp.s
 
+src/MusicalFunctions.obj: src/MusicalFunctions.cpp.obj
+.PHONY : src/MusicalFunctions.obj
+
+# target to build an object file
+src/MusicalFunctions.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Markov_Midi.dir\build.make CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj
+.PHONY : src/MusicalFunctions.cpp.obj
+
+src/MusicalFunctions.i: src/MusicalFunctions.cpp.i
+.PHONY : src/MusicalFunctions.i
+
+# target to preprocess a source file
+src/MusicalFunctions.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Markov_Midi.dir\build.make CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.i
+.PHONY : src/MusicalFunctions.cpp.i
+
+src/MusicalFunctions.s: src/MusicalFunctions.cpp.s
+.PHONY : src/MusicalFunctions.s
+
+# target to generate assembly for a file
+src/MusicalFunctions.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Markov_Midi.dir\build.make CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.s
+.PHONY : src/MusicalFunctions.cpp.s
+
 src/Note.obj: src/Note.cpp.obj
 .PHONY : src/Note.obj
 
@@ -364,6 +388,9 @@ help:
 	@echo ... src/MidiPlayer.obj
 	@echo ... src/MidiPlayer.i
 	@echo ... src/MidiPlayer.s
+	@echo ... src/MusicalFunctions.obj
+	@echo ... src/MusicalFunctions.i
+	@echo ... src/MusicalFunctions.s
 	@echo ... src/Note.obj
 	@echo ... src/Note.i
 	@echo ... src/Note.s

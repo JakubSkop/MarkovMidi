@@ -113,11 +113,26 @@ CMakeFiles/Markov_Midi.dir/src/MidiPlayer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Markov_Midi.dir/src/MidiPlayer.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\C++\MarkovMidi\src\MidiPlayer.cpp -o CMakeFiles\Markov_Midi.dir\src\MidiPlayer.cpp.s
 
+CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj: CMakeFiles/Markov_Midi.dir/flags.make
+CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj: CMakeFiles/Markov_Midi.dir/includes_CXX.rsp
+CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj: D:/Development/C++/MarkovMidi/src/MusicalFunctions.cpp
+CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj: CMakeFiles/Markov_Midi.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj -MF CMakeFiles\Markov_Midi.dir\src\MusicalFunctions.cpp.obj.d -o CMakeFiles\Markov_Midi.dir\src\MusicalFunctions.cpp.obj -c D:\Development\C++\MarkovMidi\src\MusicalFunctions.cpp
+
+CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Development\C++\MarkovMidi\src\MusicalFunctions.cpp > CMakeFiles\Markov_Midi.dir\src\MusicalFunctions.cpp.i
+
+CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Development\C++\MarkovMidi\src\MusicalFunctions.cpp -o CMakeFiles\Markov_Midi.dir\src\MusicalFunctions.cpp.s
+
 CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj: CMakeFiles/Markov_Midi.dir/flags.make
 CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj: CMakeFiles/Markov_Midi.dir/includes_CXX.rsp
 CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj: D:/Development/C++/MarkovMidi/src/Note.cpp
 CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj: CMakeFiles/Markov_Midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj -MF CMakeFiles\Markov_Midi.dir\src\Note.cpp.obj.d -o CMakeFiles\Markov_Midi.dir\src\Note.cpp.obj -c D:\Development\C++\MarkovMidi\src\Note.cpp
 
 CMakeFiles/Markov_Midi.dir/src/Note.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj: CMakeFiles/Markov_Midi.dir/flags.
 CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj: CMakeFiles/Markov_Midi.dir/includes_CXX.rsp
 CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj: D:/Development/C++/MarkovMidi/src/RtMidi.cpp
 CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj: CMakeFiles/Markov_Midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj -MF CMakeFiles\Markov_Midi.dir\src\RtMidi.cpp.obj.d -o CMakeFiles\Markov_Midi.dir\src\RtMidi.cpp.obj -c D:\Development\C++\MarkovMidi\src\RtMidi.cpp
 
 CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.i: cmake_force
@@ -147,7 +162,7 @@ CMakeFiles/Markov_Midi.dir/main.cpp.obj: CMakeFiles/Markov_Midi.dir/flags.make
 CMakeFiles/Markov_Midi.dir/main.cpp.obj: CMakeFiles/Markov_Midi.dir/includes_CXX.rsp
 CMakeFiles/Markov_Midi.dir/main.cpp.obj: D:/Development/C++/MarkovMidi/main.cpp
 CMakeFiles/Markov_Midi.dir/main.cpp.obj: CMakeFiles/Markov_Midi.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Markov_Midi.dir/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Markov_Midi.dir/main.cpp.obj"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Markov_Midi.dir/main.cpp.obj -MF CMakeFiles\Markov_Midi.dir\main.cpp.obj.d -o CMakeFiles\Markov_Midi.dir\main.cpp.obj -c D:\Development\C++\MarkovMidi\main.cpp
 
 CMakeFiles/Markov_Midi.dir/main.cpp.i: cmake_force
@@ -163,6 +178,7 @@ Markov_Midi_OBJECTS = \
 "CMakeFiles/Markov_Midi.dir/src/Initialization.cpp.obj" \
 "CMakeFiles/Markov_Midi.dir/src/Markov.cpp.obj" \
 "CMakeFiles/Markov_Midi.dir/src/MidiPlayer.cpp.obj" \
+"CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj" \
 "CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj" \
 "CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj" \
 "CMakeFiles/Markov_Midi.dir/main.cpp.obj"
@@ -173,6 +189,7 @@ Markov_Midi_EXTERNAL_OBJECTS =
 Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/src/Initialization.cpp.obj
 Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/src/Markov.cpp.obj
 Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/src/MidiPlayer.cpp.obj
+Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj
 Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj
 Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj
 Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/main.cpp.obj
@@ -180,7 +197,7 @@ Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/build.make
 Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/linkLibs.rsp
 Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/objects1
 Markov_Midi.exe: CMakeFiles/Markov_Midi.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Markov_Midi.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Development\C++\MarkovMidi\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Markov_Midi.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Markov_Midi.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

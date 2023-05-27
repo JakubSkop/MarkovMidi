@@ -1,7 +1,8 @@
+#pragma once
+
 #include <chrono>
 #include <string>
 
-#pragma once
 
 struct Pitch{
     unsigned char MidiNumber;

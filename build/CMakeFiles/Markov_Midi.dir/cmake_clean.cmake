@@ -7,6 +7,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Markov_Midi.dir/src/Markov.cpp.obj.d"
   "CMakeFiles/Markov_Midi.dir/src/MidiPlayer.cpp.obj"
   "CMakeFiles/Markov_Midi.dir/src/MidiPlayer.cpp.obj.d"
+  "CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj"
+  "CMakeFiles/Markov_Midi.dir/src/MusicalFunctions.cpp.obj.d"
   "CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj"
   "CMakeFiles/Markov_Midi.dir/src/Note.cpp.obj.d"
   "CMakeFiles/Markov_Midi.dir/src/RtMidi.cpp.obj"
