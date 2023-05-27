@@ -15,5 +15,5 @@ From an API perspective:
 
 Main.cpp contains an example usage of these features. Uploaded below is a video of this exmaple used to create a four chord loop randomised arpeggiator with Vital.
 
-https://github.com/JakubSkop/MarkovMidi/assets/130648387/5fc62f3c-a677-4fd6-9db1-d65ca8d107a0
+https://github.com/JakubSkop/MarkovMidi/assets/130648387/26e746f5-89ae-47cc-a49e-4cbd3b08230f
 
