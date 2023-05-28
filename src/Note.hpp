@@ -13,6 +13,8 @@ struct Pitch{
 
 };
 
+Pitch operator +(const Pitch& P, const int step);
+
 struct Note{
 
     Pitch pitch;

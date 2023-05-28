@@ -57,3 +57,7 @@ Pitch::Pitch(const char * WrittenPitch){
     //std::cout << MidiNumber;
 
 };
+
+Pitch operator +(const Pitch& P, const int step){
+    return Pitch{static_cast<uint8_t>(P.MidiNumber + step)};
+};
