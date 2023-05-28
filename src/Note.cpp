@@ -2,11 +2,11 @@
 #include <iostream>
 #include <string>
 
-Pitch::operator unsigned char() const{
+Pitch::operator uint8_t() const{
     return MidiNumber;
 };
 
-Pitch::Pitch(unsigned char MidiValue){
+Pitch::Pitch(const uint8_t MidiValue){
     MidiNumber = MidiValue;
 }
 
@@ -37,7 +37,7 @@ Pitch::Pitch(const char * WrittenPitch){
     };
 
     {
-        unsigned int i;
+        size_t i;
         for(i=1; WrittenPitch[i] != '\0'; i++){
             switch(WrittenPitch[i]){
             case '#':
@@ -49,7 +49,7 @@ Pitch::Pitch(const char * WrittenPitch){
             };
         };
 
-        unsigned char octave = WrittenPitch[i-1] - 48;
+        uint8_t octave = WrittenPitch[i-1] - 48;
         baseNote += (octave * 12);
     }
 

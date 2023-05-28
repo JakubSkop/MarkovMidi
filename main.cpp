@@ -4,7 +4,6 @@
 #include "Note.hpp"
 #include "Markov.hpp"
 #include "MusicalFunctions.hpp"
-#include <memory>
 
 int main()
 {
@@ -65,8 +64,16 @@ int main()
     Final->Initialize(Chords);
 
     while(true){
-
+        using namespace std::chrono;
+        
+        steady_clock::time_point t1 = steady_clock::now();
         Final->Advance();
+        steady_clock::time_point t2 = steady_clock::now();
+
+        milliseconds time_span = duration_cast<milliseconds>(t2 - t1);
+
+        std::cout << "It took me " << time_span.count() << " seconds.";
+        std::cout << std::endl;
         
     };
     

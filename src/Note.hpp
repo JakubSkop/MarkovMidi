@@ -5,11 +5,11 @@
 
 
 struct Pitch{
-    unsigned char MidiNumber;
+    uint8_t MidiNumber;
 
-    operator unsigned char() const;
+    operator uint8_t() const;
     Pitch(const char * WrittenPitch);
-    Pitch(unsigned char MidiValue);
+    Pitch(const uint8_t MidiValue);
 
 };
 

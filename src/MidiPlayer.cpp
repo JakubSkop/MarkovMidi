@@ -14,7 +14,7 @@ MidiPlayer::MidiPlayer(){
 };
 
 void MidiPlayer::PlayNote(Note note) const{
-    std::vector<unsigned char> message;
+    std::vector<uint8_t> message;
     message.push_back(144); //Note On Midi Message
     message.push_back(note.pitch);
     message.push_back(note.velocity);
@@ -30,7 +30,7 @@ void MidiPlayer::PlayNote(Note note) const{
 void MidiPlayer::SetupMidi(){
     // Send out a series of MIDI messages.
     // Program change: 192, 5
-    std::vector<unsigned char> message;
+    std::vector<uint8_t> message;
     message.push_back( 192 );
     message.push_back( 5 );
     midiOut->sendMessage( &message );
